@@ -22,9 +22,10 @@ let theme = createTheme({
       background: "#1D1D1D", // Black
     },
   },
-  typography: {
-    fontFamily: "Inter",
-  },
+  // typography: {
+  //   fontFamily: "Inter",
+  //   color:'#ffffff'
+  // },
   components: {
     MuiButton: {
       styleOverrides: {
@@ -39,6 +40,7 @@ let theme = createTheme({
       styleOverrides: {
         root: {
           fontFamily: "Inter",
+          color:'#ffffff',
         },
       },
     },
