@@ -19,7 +19,7 @@ let theme = createTheme({
       background: "rgba(71, 71, 71, 0.50)", // Grey
     },
     footer: {
-      background: "#1D1D1D", // Black
+      background: "#111111", // Dark Black
     },
   },
   // typography: {
@@ -40,7 +40,8 @@ let theme = createTheme({
       styleOverrides: {
         root: {
           fontFamily: "Inter",
-          color:'#ffffff',
+          color: "#ffffff",
+          // fontSizeAdjust: "0.5",
         },
       },
     },
@@ -51,10 +52,42 @@ let theme = createTheme({
           textDecoration: "none",
           fontWeight: 500,
           fontSize: "0.8rem",
+          cursor: "pointer",
         },
       },
     },
-  },
+    MuiAccordion: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#1d1d1d",
+          boxShadow: "none",
+          "&.Mui-expanded": {
+            margin: 0,
+          },
+        },
+      },
+    },
+    MuiTextField: {
+      styleOverrides: {
+        root: {
+          "& .MuiOutlinedInput-input": {
+            // color: '#fff', // Change this to your desired color
+            backgroundColor: "#fff",
+          },
+          // '& .MuiOutlinedInput-notchedOutline': {
+          //   borderColor: '#f00', // Change this to your desired color
+          // },
+        },
+      },
+    },
+    MuiOutlinedInput: {
+      styleOverrides: {
+        root: {
+          paddingRight: "0", // Override the padding right here
+        },
+      },
+    },
+  }
 });
 
 theme = responsiveFontSizes(theme);

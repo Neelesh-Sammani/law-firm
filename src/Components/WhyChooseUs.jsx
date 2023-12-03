@@ -20,11 +20,11 @@ const WhyChooseUs = () => {
         sx={{
           display: "flex",
           gap: "1rem",
-          "@media (max-width:600px)":{
-            flexDirection:'column',
+          "@media (max-width:600px)": {
+            flexDirection: "column",
           },
         }}
-        mx={4}
+        mx={5}
       >
         <Box
           sx={{
@@ -40,8 +40,9 @@ const WhyChooseUs = () => {
         >
           <img src={gift} width={100} height={100} alt="icon" />
           <Typography variant="h5">98% Success Rate</Typography>
-          <Typography variant="body1" sx={{opacity:'0.3'}}>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.
+          <Typography variant="body1" sx={{ opacity: "0.3" }}>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequatduis enim velit mollit Exer.
           </Typography>
           <Button variant="contained">Read More</Button>
         </Box>
@@ -59,8 +60,9 @@ const WhyChooseUs = () => {
         >
           <img src={gift} width={100} height={100} alt="icon" />
           <Typography variant="h5">100% Success Rate</Typography>
-          <Typography variant="body1" sx={{opacity:'0.3'}}>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.
+          <Typography variant="body1" sx={{ opacity: "0.3" }}>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequatduis enim velit mollit Exer.
           </Typography>
           <Button variant="contained">Read More</Button>
         </Box>
@@ -78,8 +80,9 @@ const WhyChooseUs = () => {
         >
           <img src={gift} width={100} height={100} alt="icon" />
           <Typography variant="h5">100% Success Rate</Typography>
-          <Typography variant="body1" sx={{opacity:'0.3'}}>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.
+          <Typography variant="body1" sx={{ opacity: "0.3" }}>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequatduis enim velit mollit Exer.
           </Typography>
           <Button variant="contained">Read More</Button>
         </Box>
